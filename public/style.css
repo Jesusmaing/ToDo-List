@@ -1,0 +1,96 @@
+body{
+    background: #efefef
+}
+
+
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background:#fffbfb;
+    height: min(50vm,200px);
+    /* height: 80%; */
+    width:80%;
+    max-width: 500px;
+    max-height: 700px;
+    align-items:center;
+    box-shadow: 5px 5px 30px 0.7px;
+    overflow-y: auto;
+    
+}
+.card .imgContainer img{
+    position: relative;
+    top:0;
+    clear: both;
+    width: 100%;
+    height: 180px;
+}
+
+.card .header .imgmenu img{
+    position: absolute;
+    margin:2%;
+    width: 8%;
+    height:6%;
+}
+.card .imgContainer .textimg{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position:absolute;
+    top:0;
+    width: 50%;
+    height: 180px;
+    background-color:#b395ff1f;
+    
+}
+.card .imgContainer .textimg p{
+    top:0;
+    margin-top:10vh;
+    margin-left:10%;
+    width: 42%;
+    height: 180px;
+    font-size:30px;
+    transform: translate(10%, -10%);
+    color: aliceblue;
+    font-weight: 400;
+    
+}
+
+.infopersonal{
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right: 9%;
+    margin-top:8vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.infopersonal .itemT{
+    font-size:15px;
+    margin-left:10px;
+    color: white;
+}
+.infopersonal .itemN{
+    font-size:30px;
+    font-weight: bold;
+    margin-left:10px;
+    text-align: center;
+    color: white;
+}
+
+span{
+    font-size: 12px;
+    font-weight:720;
+    color:#3a3a3a;
+    margin-left:20px;
+    
+}
+
+
+.TareasNoCompletadas{
+    position:fixed;
+    margin-top: -2%;
+}

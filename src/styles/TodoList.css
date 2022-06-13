@@ -1,0 +1,54 @@
+.TodoList{
+    width:90%;
+    position:relative;
+    height:25px;
+}
+.TodoList li{
+    display:grid;
+    overflow-y:visible;
+    
+    grid-template-columns: 1fr 6fr 1fr;
+    
+}
+li .todo{
+    font-size:14px;
+    text-align:center;
+    list-style:none;
+}
+li img{
+    width:20px;
+    margin:auto;
+
+}
+
+li .time{
+    font-size: 10px;
+    margin: auto;
+    right:0
+}
+.botoneslist{
+    margin-top:10px;
+}
+.Borrar{
+    cursor: pointer;
+}
+.Terminado{
+    cursor: pointer;
+    margin: 0;
+}
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+  }
+  
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+  
+p{
+    font-size:10px;
+}

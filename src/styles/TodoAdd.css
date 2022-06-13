@@ -1,0 +1,14 @@
+.TodoAdd{
+    position:absolute;
+    border-style: none;
+    width: 80%;
+    background:none;
+    font-weight: bold;
+    background-color: rgba(237, 131, 253, 0.174);
+    text-align: center;
+
+}
+
+::placeholder{
+    color:rgb(38, 0, 255);
+}
